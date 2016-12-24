@@ -13,4 +13,4 @@ Usage:
          where bucket name is "VPCLogsS3Bucket" and Key is "RejectedCounts"
 
     Example: 
-        python VPCLogParse.py -i SampleData.txt -u randomsterbucket\RejectedCounts
+        python VPCLogParse.py -i SampleData.txt -u randomsterbucket/RejectedCounts
