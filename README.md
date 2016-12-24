@@ -9,7 +9,7 @@ Usage:
     VPCLogParse.py -i <logfile> -o <output json file> -u <S3 Url>
      -i (required) VPC Log File
      -o (option) Output log file name - for saving to your machine
-     -u (required) S3 Url - must be in following format "VPCLogsS3Bucket\RejectedCounts"
+     -u (required) S3 Url - must be in following format "VPCLogsS3Bucket/RejectedCounts"
          where bucket name is "VPCLogsS3Bucket" and Key is "RejectedCounts"
 
     Example: 
