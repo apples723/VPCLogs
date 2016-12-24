@@ -12,3 +12,5 @@ Usage:
      -u (required) S3 Url - must be in following format "VPCLogsS3Bucket\RejectedCounts"
          where bucket name is "VPCLogsS3Bucket" and Key is "RejectedCounts"
 
+    Example: 
+        python VPCLogParse.py -i SampleData.txt -u randomsterbucket\RejectedCounts
