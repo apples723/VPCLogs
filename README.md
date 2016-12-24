@@ -1,5 +1,5 @@
 # VPCLogs
-Parse VPC Logs and upload to an S3 Bucket.
+Parse VPC Logs, find rejected entries and upload to an S3 Bucket.
 
 Script assumes you have the AWS SDK installed (Boto3) and you have configured
 your credentials for access to AWS, and are using python 2.7 (wrote and tested on a mac) 
